@@ -1,0 +1,5 @@
+class AddActiveAttribute < ActiveRecord::Migration[5.2]
+  def change
+  	add_column :monsters, :active, :boolean
+  end
+end
